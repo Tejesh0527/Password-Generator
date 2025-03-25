@@ -4,7 +4,7 @@
     margin-top: 109px;
 }
  body {
-    background: #222;
+    background:black;
     color: white;
     font-family: "Poppins", sans-serif;
     size: 100vh;
@@ -15,7 +15,7 @@ h1.font{
 }
 
 .container {
-    background: #333;
+    background: rgb(51, 51, 51);
     padding: 20px;
     border-radius: 12px;
     text-align: center;
@@ -38,7 +38,7 @@ h1 {
 
 .password-box {
     display: flex;
-    border: 2px solid #555;
+    border: 2px solid rgb(85, 85, 85);
     border-radius: 8px;
     overflow: hidden;
 }
@@ -47,14 +47,14 @@ h1 {
     flex: 1;
     padding: 10px;
     border: none;
-    background: #444;
+    background: rgb(68, 68, 68);
     color: white;
     font-size: 16px;
     text-align: center;
 }
 
 .password-box button {
-    background: #4CAF50;
+    background: rgb(76, 175, 80);
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -64,7 +64,7 @@ h1 {
 }
 
 .password-box button:hover {
-    background: #45a049;
+    background: rgb(69, 160, 73);
 }
 
 .range {
@@ -78,7 +78,7 @@ h1 {
 }
 
 .range span {
-    background: #444;
+    background: rgb(68, 68, 68);
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -90,7 +90,7 @@ h1 {
 }
 
 .options label {
-    background: #444;
+    background: rgb(68, 68, 68);
     padding: 8px;
     border-radius: 5px;
     cursor: pointer;
@@ -101,7 +101,7 @@ h1 {
 }
 
 button {
-    background: #4CAF50;
+    background: rgb(76, 175, 80);
     color: white;
     padding: 12px;
     border: none;
@@ -112,5 +112,5 @@ button {
 }
 
 button:hover {
-    background: #45a049;
+    background: rgb(69, 160, 73);
 }
