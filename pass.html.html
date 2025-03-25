@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="pg.css">
+</head>
+
+<body>
+    <h1 class="h1.font" id="mainheading">Password Generator</h1>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="generator">
+            <div class="password-box">
+                <input type="text" id="password" readonly />
+                <button id="copy-btn">Copy</button>
+            </div>
+            <div class="range">
+                <input type="range" id="lengthRange" min="4" max="24" value="12">
+                <span id="lengthValue">12</span>
+            </div>
+            <div class="options">
+                <label><input type="checkbox" id="lowercaseCb" checked> a-z</label>
+                <label><input type="checkbox" id="uppercaseCb"> A-Z</label>
+                <label><input type="checkbox" id="digitsCb"> 0-9</label>
+                <label><input type="checkbox" id="specialsCb"> !@$#%^</label>
+            </div>
+            <button id="generate-btn">Generate</button>
+        </div>
+    </div>
+    <script src="pg.js"></script>
+</body>
+
+</html>

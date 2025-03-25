@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+#mainheading{
+    margin-left: 680px;
+    margin-top: 109px;
+}
+ body {
+    background: #222;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    size: 100vh;
+    
+}
+h1.font{
+    font-size: medium;
+}
+
+.container {
+    background: #333;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 1300px;
+    height: 350px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+    margin-left: 180px;
+}
+h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.generator {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.password-box {
+    display: flex;
+    border: 2px solid #555;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.password-box input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #444;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.password-box button {
+    background: #4CAF50;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.password-box button:hover {
+    background: #45a049;
+}
+
+.range {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.range input {
+    width: 70%;
+}
+
+.range span {
+    background: #444;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.options label {
+    background: #444;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+}
